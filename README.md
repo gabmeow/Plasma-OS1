@@ -1,5 +1,5 @@
 # Plasma-OS
-## _Made by plasma_
+## _Made by Plasma_
 
 [Plasma Discord Server](https://discord.gg/92RFjFyFHH)
 
