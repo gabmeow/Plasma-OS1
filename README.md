@@ -15,6 +15,16 @@ _When I was a kid i always dreamed to create an operating system, finally, this 
 # GOALS
 - Still nothing here
 
+# BOOTING
+- [x] QEmu needed
+- [x] nasm needed
+## Linux
+- nasm kernel.asm -f bin -o kernel.bin
+- qemu-system-x86_64 -drive format=raw,file=kernel.bin,index=0,if=floppy -m 128M
+## Windows
+- nasm kernel.asm -f bin -o kernel.bin
+- qemu-system-x86_64.exe -drive format=raw,file=kernel.bin,index=0,if=floppy -m 128M
+
 # CREDITS
 _Thanks to our developers for working on the system!
 gabmeow: Senior Developer and founder of Plasma Company
